@@ -1,0 +1,23 @@
+{
+  "name": "nerf-center",
+  "version": "1.1.0",
+  "description": "Launch darts from your IoT Nerf Gun with Amazon Alexa",
+  "main": "index.js",
+  "scripts": {
+    "precompress": "rm -rf lambda.zip",
+    "compress": "zip -r -X lambda.zip node_modules config.js index.js",
+    "aws-create-lambda": "aws lambda create-function --region us-east-1 --zip-file fileb://lambda.zip --description \"$npm_package_description\" --role arn:aws:iam::843274502059:role/lambda_basic_execution --handler index.handler --runtime nodejs6.10 --profile default",
+    "aws-update-lambda-code": "aws lambda update-function-code  --region us-east-1 --zip-file fileb://lambda.zip",
+    "aws-update-lambda-config": "aws lambda update-function-configuration  --region us-east-1",
+    "deploy": "npm run compress && npm run aws-create-lambda --",
+    "redeploy": "npm run compress && npm run aws-update-lambda-code --",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mark Vilrokx <mvilrokx@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.9",
+    "mqtt": "^2.7.2"
+  }
+}
