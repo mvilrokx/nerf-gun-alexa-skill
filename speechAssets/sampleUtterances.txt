@@ -1,0 +1,42 @@
+launchDartsIntent I want to launch {nrOfDarts} bullet from Nerf Gun {nerfGunIndex}
+launchDartsIntent I want to launch {nrOfDarts} darts from Nerf Gun {nerfGunIndex}
+launchDartsIntent Launch {nrOfDarts} darts from Nerf Gun {nerfGunIndex}
+launchDartsIntent Launch {nrOfDarts} dart from Nerf Gun {nerfGunIndex}
+launchDartsIntent {nrOfDarts} darts from Nerf Gun {nerfGunIndex}
+launchDartsIntent {nrOfDarts} dart from Nerf Gun {nerfGunIndex}
+launchDartsIntent I want to shoot {nrOfDarts} darts from Nerf Gun {nerfGunIndex}
+launchDartsIntent I want to shoot {nrOfDarts} darts
+launchDartsIntent {nrOfDarts} dart
+launchDartsIntent {nrOfDarts} darts
+launchDartsIntent Launch {nrOfDarts} dart
+launchDartsIntent Launch {nrOfDarts} darts
+launchDartsIntent I want to launch {nrOfDarts} darts
+launchDartsIntent Launch {nrOfDarts}
+launchDartsIntent I want to fire {nrOfDarts} dart from Nerf Gun {nerfGunIndex}
+launchDartsIntent I want to fire {nrOfDarts} darts from Nerf Gun {nerfGunIndex}
+launchDartsIntent Fire {nrOfDarts} darts from Nerf Gun {nerfGunIndex}
+launchDartsIntent Fire {nrOfDarts} dart from Nerf Gun {nerfGunIndex}
+launchDartsIntent {nrOfDarts} darts from Nerf Gun {nerfGunIndex}
+launchDartsIntent {nrOfDarts} dart from Nerf Gun {nerfGunIndex}
+launchDartsIntent I want to shoot {nrOfDarts} darts from Nerf Gun {nerfGunIndex}
+launchDartsIntent I want to shoot {nrOfDarts} darts
+launchDartsIntent {nrOfDarts} dart
+launchDartsIntent {nrOfDarts} darts
+launchDartsIntent Fire {nrOfDarts} dart
+launchDartsIntent Fire {nrOfDarts} darts
+launchDartsIntent I want to fire {nrOfDarts} darts
+launchDartsIntent Fire {nrOfDarts}
+launchDartsIntent I want to fire {nrOfDarts} bullet from Nerf Gun {nerfGunIndex}
+launchDartsIntent I want to fire {nrOfDarts} bullets from Nerf Gun {nerfGunIndex}
+launchDartsIntent Fire {nrOfDarts} bullets from Nerf Gun {nerfGunIndex}
+launchDartsIntent Fire {nrOfDarts} bullet from Nerf Gun {nerfGunIndex}
+launchDartsIntent {nrOfDarts} bullets from Nerf Gun {nerfGunIndex}
+launchDartsIntent {nrOfDarts} bullet from Nerf Gun {nerfGunIndex}
+launchDartsIntent I want to shoot {nrOfDarts} bullets from Nerf Gun {nerfGunIndex}
+launchDartsIntent I want to shoot {nrOfDarts} bullets
+launchDartsIntent {nrOfDarts} bullet
+launchDartsIntent {nrOfDarts} bullets
+launchDartsIntent Fire {nrOfDarts} bullet
+launchDartsIntent Fire {nrOfDarts} bullets
+launchDartsIntent I want to fire {nrOfDarts} bullets
+launchDartsIntent Fire {nrOfDarts}

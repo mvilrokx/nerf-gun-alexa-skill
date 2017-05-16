@@ -1,0 +1,17 @@
+{
+  "intents": [
+    {
+      "intent": "launchDartsIntent",
+      "slots": [
+        {
+          "name": "nrOfDarts",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "nerfGunIndex",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    }
+  ]
+}

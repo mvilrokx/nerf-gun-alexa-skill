@@ -20,29 +20,26 @@ First, [this is a Amazon's full documentation on creating a new skill](https://d
 You can use any Name you want.  You can also use any Invocation Name, however, I used "nerfgun" and that is what I will be using going forward.  If you want to use a different Invocation Name, just know that what follows might be slightly different for you.
 
 ## Interaction Model
-I used the new (still in Beta at the time of writing) Skill Builder to build my interaction model.
+I used the new (still in Beta at the time of writing) Skill Builder to build my interaction model.  Again, I can't seem to find a way to export and then Source Control this meta data.  If you decide to not use the Skill Builder, I included the intentSchema and the sampleUtterances in this repository in the ```speechAssets``` directory (you won't need these if using the Skill Builder).
 
 Add 1 additional intent (there are already 3 present by default; Cancel, Help and Stop) and call it "launchDartIntent".
 
 Add several Sample Utterances for this intent, e.g. I added:
 
-* I want to launch {nrOfDarts} dart from Nerf Gun {nerfGunIndex}
 * I want to launch {nrOfDarts} darts from Nerf Gun {nerfGunIndex}
 * Launch {nrOfDarts} darts from Nerf Gun {nerfGunIndex}
-* Launch {nrOfDarts} dart from Nerf Gun {nerfGunIndex}
 * {nrOfDarts} darts from Nerf Gun {nerfGunIndex}
-* {nrOfDarts} dart from Nerf Gun {nerfGunIndex}
 * I want to shoot {nrOfDarts} darts from Nerf Gun {nerfGunIndex}
 * I want to shoot {nrOfDarts} darts
-* {nrOfDarts} dart
 * {nrOfDarts} darts
-* Launch {nrOfDarts} dart
 * Launch {nrOfDarts} darts
 * I want to launch {nrOfDarts} darts
 * Launch {nrOfDarts}
 * ...
 
-You can add as many as you want, maybe variations with "Fire" instead of "Launch" and "Bullets" instead of "Darts".  Just make sure you include {nrOfDarts} and {nerfGunIndex} in your utterances.
+I included more in ```speechAssets/sampleUtterances.txt```.
+
+You can add as many as you want, maybe variations with "Fire" instead of "Launch" and "Bullets" instead of "Darts".  Just make sure you include {nrOfDarts} and {nerfGunIndex} in your utterances.  
 
 These are called ```slots``` and you need to give them a type (both) of ```AMAZON.NUMBER```.  When you speak the utterance, these slots will contain the variables of your utterance and that will get passed to the Lamba.
 
