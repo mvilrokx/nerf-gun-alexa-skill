@@ -2,7 +2,7 @@ const mqtt = require('mqtt')
 const Alexa = require('alexa-sdk')
 const config = require('./config.js')
 
-const APP_ID = process.env.APP_ID // 'amzn1.ask.skill.806b2881-fd8a-4f32-8405-d2a2e0f8d61f'
+const APP_ID = process.env.APP_ID
 
 const connectToCloudMqtt = () => {
   const url  = `http://${process.env.MQTT_HOST}:${process.env.MQTT_PORT}`
